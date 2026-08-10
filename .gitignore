@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Dependencies (dev tooling only; the site itself has none)
+node_modules/
