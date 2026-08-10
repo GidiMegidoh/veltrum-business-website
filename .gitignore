@@ -1,15 +1,15 @@
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Editors
-*.swp
-*.swo
 .idea/
 .vscode/
+*.swp
+
+# Dependencies (none are used, but just in case)
+node_modules/
 
 # Logs
 *.log
-
-# Dependencies (dev tooling only; the site itself has none)
-node_modules/

@@ -1,35 +1,42 @@
-/* Veltrum site scripts: accessible mobile navigation toggle. */
+/* Veltrum — minimal site behavior: mobile navigation toggle only. */
 (function () {
   'use strict';
 
   var toggle = document.querySelector('.nav-toggle');
-  var nav = document.getElementById('site-nav');
+  var menu = document.getElementById('nav-menu');
 
-  if (!toggle || !nav) {
+  if (!toggle || !menu) {
     return;
   }
 
-  function closeNav() {
-    toggle.setAttribute('aria-expanded', 'false');
-    nav.classList.remove('is-open');
+  function setMenu(open) {
+    menu.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', String(open));
   }
 
   toggle.addEventListener('click', function () {
-    var isOpen = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!isOpen));
-    nav.classList.toggle('is-open', !isOpen);
+    setMenu(!menu.classList.contains('open'));
   });
 
+  /* Close the mobile menu after choosing a page */
+  menu.addEventListener('click', function (event) {
+    if (event.target.closest('a')) {
+      setMenu(false);
+    }
+  });
+
+  /* Close on Escape */
   document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape' && nav.classList.contains('is-open')) {
-      closeNav();
+    if (event.key === 'Escape' && menu.classList.contains('open')) {
+      setMenu(false);
       toggle.focus();
     }
   });
 
-  nav.addEventListener('click', function (event) {
-    if (event.target.closest('a')) {
-      closeNav();
+  /* Close when clicking outside the header */
+  document.addEventListener('click', function (event) {
+    if (menu.classList.contains('open') && !event.target.closest('.site-header')) {
+      setMenu(false);
     }
   });
 })();

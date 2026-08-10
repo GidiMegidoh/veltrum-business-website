@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>מדיניות פרטיות | וולטרום</title>
-  <meta name="description" content="מדיניות הפרטיות של וולטרום: איזה מידע אנחנו מעבדים בסוכני ה-WhatsApp שלנו באמצעות WhatsApp Cloud API, איך הוא נשמר ומהן זכויותיכם.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מדיניות פרטיות | Veltrum / וולטרום</title>
+  <meta name="description" content="איך וולטרום מטפלת במידע אישי: עיבוד הודעות דרך WhatsApp Cloud API של Meta, שמירת נתונים, זכויות משתמשים ופרטי יצירת קשר.">
   <link rel="canonical" href="https://veltrumhq.com/privacy.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="וולטרום">
-  <meta property="og:title" content="מדיניות פרטיות | וולטרום">
-  <meta property="og:description" content="מדיניות הפרטיות של וולטרום: איזה מידע אנחנו מעבדים בסוכני ה-WhatsApp שלנו באמצעות WhatsApp Cloud API, איך הוא נשמר ומהן זכויותיכם.">
-  <meta property="og:url" content="https://veltrumhq.com/privacy.html">
+  <meta property="og:site_name" content="Veltrum">
   <meta property="og:locale" content="he_IL">
-  <meta name="theme-color" content="#1B4332">
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <meta property="og:title" content="מדיניות פרטיות | Veltrum / וולטרום">
+  <meta property="og:description" content="מדיניות הפרטיות של וולטרום — כולל עיבוד נתונים דרך WhatsApp Cloud API.">
+  <meta property="og:url" content="https://veltrumhq.com/privacy.html">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
 
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">
-        <img src="assets/logo.svg" alt="Veltrum" class="logo" width="44" height="44">
+        <img src="assets/logo.svg" alt="Veltrum" class="logo">
         <span class="brand-name">וולטרום</span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="תפריט ניווט">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="ניווט ראשי">
-        <ul>
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">פתיחת תפריט</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
           <li><a href="index.html">בית</a></li>
           <li><a href="services.html">שירותים</a></li>
           <li><a href="about.html">אודות</a></li>
-          <li><a href="contact.html">צור קשר</a></li>
+          <li><a href="contact.html" class="nav-cta">צור קשר</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main id="main">
-    <section class="page-header">
+  <main>
+
+    <section class="page-hero">
       <div class="container">
         <h1>מדיניות פרטיות</h1>
         <p class="updated-date">עודכן לאחרונה: 10 באוגוסט 2026</p>
@@ -54,86 +53,146 @@
     </section>
 
     <section class="section">
-      <div class="container prose">
-        <p>וולטרום ("אנחנו") מכבדת את הפרטיות של המשתמשים באתר, של הלקוחות שלנו ושל לקוחותיהם. המסמך הזה מסביר איזה מידע אנחנו מעבדים, איך הוא נשמר, למה הוא משמש ומהן הזכויות שלכם — הן באתר הזה והן בשירותי האוטומציה שאנחנו מפעילים, ובהם סוכני WhatsApp הפועלים באמצעות WhatsApp Cloud API של Meta.</p>
+      <div class="container">
+        <div class="legal-content">
 
-        <h2>המידע שאנחנו מעבדים</h2>
+          <h2>1. מי אנחנו</h2>
+          <p>
+            Veltrum / וולטרום ("אנחנו") פועלת בישראל כעוסק פטור, תיק מס' 331644872,
+            ומספקת שירותי אוטומציה לעסקים: סוכני WhatsApp לתיאום תורים ושירות לקוחות,
+            מנועי הצעות מחיר אוטומטיים וכלים פנימיים. מדיניות זו מסבירה איזה מידע
+            אנחנו מעבדים במסגרת האתר והשירותים, למה, ואיך אנחנו שומרים עליו.
+          </p>
 
-        <h3>פניות ישירות אלינו</h3>
-        <p>כשאתם פונים אלינו בוואטסאפ, בטלפון או באימייל, אנחנו מקבלים את הפרטים שאתם בוחרים למסור: שם, פרטי התקשרות ותוכן הפנייה. האתר עצמו אינו כולל טפסים ואינו אוסף מידע אישי באופן עצמאי.</p>
+          <h2>2. איזה מידע אנחנו מעבדים</h2>
+          <ul>
+            <li>פרטי קשר שאתם מוסרים לנו ישירות: שם, מספר טלפון, אימייל.</li>
+            <li>תוכן הודעות שנשלחות לסוכני ה-WhatsApp שאנחנו מפעילים עבור עסקים — כולל טקסט, תמונות וקבצים.</li>
+            <li>פרטי תיאומים: מועדי תורים, סוג השירות המבוקש, הערות שנמסרו במהלך השיחה.</li>
+            <li>מידע עסקי שלקוחותינו העסקיים מחברים למערכת: יומנים, רשומות CRM, מחירונים ומסמכים.</li>
+          </ul>
 
-        <h3>מידע המעובד בסוכני WhatsApp שאנחנו מפעילים</h3>
-        <p>כשעסק משתמש בסוכן WhatsApp של וולטרום, הסוכן מעבד את ההתכתבות מול לקוחות העסק באמצעות WhatsApp Cloud API של Meta. מידע זה עשוי לכלול:</p>
-        <ul>
-          <li>תוכן הודעות נכנסות ויוצאות בשיחה עם הסוכן.</li>
-          <li>מספר הטלפון ושם הפרופיל של הפונה.</li>
-          <li>קבצים, תמונות ופרטים שהלקוח שולח לצורך קבלת השירות (למשל דרישות להצעת מחיר).</li>
-          <li>נתוני תיאום, כמו מועדי תורים שנקבעו ביומן העסק.</li>
-        </ul>
+          <h2>3. עיבוד הודעות דרך WhatsApp Cloud API של Meta</h2>
+          <p>
+            סוכני ה-WhatsApp שלנו פועלים על גבי WhatsApp Cloud API — הממשק הרשמי
+            של Meta לעסקים. המשמעות: הודעות שאתם שולחים למספר העסקי עוברות דרך
+            השרתים של Meta, בהתאם לתנאי השירות ולמדיניות הפרטיות של Meta, ומגיעות
+            אלינו לצורך מתן השירות — תיאום תור, הכנת הצעת מחיר או מענה לפנייה.
+          </p>
+          <p>
+            אנחנו מעבדים את תוכן ההודעות אך ורק לצורך הפעלת השירות עבור העסק
+            שאליו פניתם. איננו מוכרים את המידע ואיננו עושים בו שימוש למטרות פרסום.
+          </p>
 
-        <h2>למה המידע משמש</h2>
-        <ul>
-          <li>הפעלת השירות עצמו: מענה ללקוחות, תיאום תורים, הכנת הצעות מחיר והפקת מסמכים ודוחות.</li>
-          <li>שיפור הדיוק והאיכות של הסוכן עבור העסק שבו הוא פועל.</li>
-          <li>תיעוד עסקי מול הלקוח, למשל שמירת הצעות מחיר שנשלחו.</li>
-        </ul>
-        <p>אנחנו לא מוכרים מידע אישי ולא מעבירים אותו לגורמים אחרים למטרות שיווק.</p>
+          <h2>4. איך המידע נשמר ולכמה זמן</h2>
+          <p>
+            המידע נשמר במערכות מאובטחות עם הרשאות גישה מצומצמות. תוכן שיחות נשמר
+            רק כל עוד הוא נדרש למתן השירות, לתיעוד עסקי סביר או לעמידה בדרישות
+            הדין, ולאחר מכן נמחק. אפשר לבקש מחיקה מוקדמת בכל שלב — ראו סעיף
+            "הזכויות שלכם".
+          </p>
 
-        <h2>איפה המידע נשמר ולכמה זמן</h2>
-        <p>ההודעות עוברות דרך התשתית של Meta (WhatsApp Cloud API) בהתאם למדיניות של Meta. מידע שנשמר במערכות שלנו — כמו יומני שיחה, הצעות מחיר ונתוני תיאום — נשמר במערכות מאובטחות עם גישה מוגבלת, לפרק הזמן הדרוש למתן השירות לעסק הלקוח או עד לבקשת מחיקה, בהתאם להסכם מול אותו עסק.</p>
+          <h2>5. למה משמש המידע</h2>
+          <ul>
+            <li>מתן השירות ותפעולו השוטף: תיאום תורים, הצעות מחיר, מענה ללקוחות.</li>
+            <li>שיפור הדיוק והאיכות של הסוכנים והתהליכים שאנחנו מפעילים.</li>
+            <li>חזרה אליכם לגבי פנייה שהשארתם.</li>
+            <li>עמידה בדרישות הדין.</li>
+          </ul>
 
-        <h2>אבטחת מידע</h2>
-        <p>אנחנו מיישמים אמצעי הגנה מקובלים: הצפנת תעבורה, הרשאות גישה מצומצמות ושמירת מידע רק במערכות מאובטחות. אף מערכת אינה חסינה לחלוטין, אך אנחנו פועלים לפי נהלים מקובלים לצמצום סיכונים.</p>
+          <h2>6. שיתוף מידע עם צדדים שלישיים</h2>
+          <p>אנחנו משתפים מידע רק כשהדבר נדרש להפעלת השירות:</p>
+          <ul>
+            <li>Meta — כמפעילת WhatsApp Cloud API שדרכה עוברות ההודעות.</li>
+            <li>ספקי אחסון וענן שמארחים את המערכות שלנו.</li>
+            <li>מערכות יומן ו-CRM שהעסק הרלוונטי חיבר לשירות.</li>
+            <li>רשויות מוסמכות, אם הדין מחייב זאת.</li>
+          </ul>
+          <p>כל ספק כזה כפוף לחובות סודיות ואבטחת מידע.</p>
 
-        <h2>הזכויות שלכם</h2>
-        <p>בהתאם לחוק הגנת הפרטיות, התשמ"א-1981, ולתקנות הגנת הפרטיות (אבטחת מידע), התשע"ז-2017, אתם רשאים:</p>
-        <ul>
-          <li>לעיין במידע שנשמר עליכם אצלנו.</li>
-          <li>לבקש תיקון של מידע שגוי.</li>
-          <li>לבקש מחיקה של מידע.</li>
-          <li>לקבל עותק של המידע שמסרתם לנו.</li>
-        </ul>
+          <h2>7. הזכויות שלכם</h2>
+          <p>
+            בהתאם לחוק הגנת הפרטיות, התשמ"א-1981, ולתקנות שהותקנו מכוחו, יש לכם
+            זכות לעיין במידע שנשמר עליכם, לבקש תיקון של מידע שגוי, לבקש מחיקה,
+            ולקבל עותק של המידע (ייצוא). כדי לממש כל אחת מהזכויות — פנו אלינו
+            באחד מפרטי הקשר שבסעיף 10, ונטפל בפנייה תוך זמן סביר ולא יאוחר
+            מהקבוע בדין.
+          </p>
 
-        <h2>עוגיות וכלי מעקב</h2>
-        <p>האתר אינו משתמש בעוגיות מעקב, בכלי אנליטיקה או בסקריפטים של גורמים אחרים. המשאב החיצוני היחיד שהאתר טוען הוא גופן Heebo משרתי Google Fonts; בעת טעינת הגופן, הדפדפן שלכם פונה לשרתי Google.</p>
+          <h2>8. אבטחת מידע</h2>
+          <p>
+            אנחנו מיישמים אמצעי הגנה בהתאם לתקנות הגנת הפרטיות (אבטחת מידע),
+            התשע"ז-2017, ובהם הצפנת תעבורה, הרשאות גישה מצומצמות לפי תפקיד
+            וגיבויים מנוהלים. אף מערכת אינה חסינה לחלוטין, אך אנחנו פועלים
+            לצמצם סיכונים באופן שוטף.
+          </p>
 
-        <h2>פניות בנושא פרטיות</h2>
-        <p>לכל שאלה, בקשת עיון, תיקון או מחיקה, אפשר לפנות אלינו באימייל <a class="ltr" href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a> או בטלפון <a class="ltr" href="tel:+972524608284">052&#8209;460&#8209;8284</a>. נטפל בכל פנייה במהירות האפשרית.</p>
+          <h2>9. עוגיות וכלי מדידה</h2>
+          <p>
+            האתר עצמו סטטי ואינו מטמיע עוגיות מעקב, פיקסלים או כלי אנליטיקה.
+            הגופנים נטענים משירות Google Fonts, ולכן הדפדפן שלכם שולח ל-Google
+            בקשת רשת בסיסית לצורך טעינתם.
+          </p>
 
-        <h2>עדכונים למדיניות זו</h2>
-        <p>אנחנו עשויים לעדכן מדיניות זו מעת לעת. הנוסח המעודכן יפורסם בעמוד הזה, עם ציון מועד העדכון בראש העמוד.</p>
+          <h2>10. יצירת קשר בנושאי פרטיות</h2>
+          <p>לכל שאלה, בקשת עיון, תיקון או מחיקה:</p>
+          <ul>
+            <li>טלפון / WhatsApp: <a href="https://wa.me/972524608284"><span class="ltr-inline">052-460-8284</span></a></li>
+            <li>אימייל: <a href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a></li>
+          </ul>
+
+          <h2>11. שינויים במדיניות</h2>
+          <p>
+            נעדכן מדיניות זו מעת לעת. בכל שינוי מהותי נעדכן את התאריך בראש העמוד.
+            המשך שימוש בשירותים לאחר עדכון מהווה הסכמה לנוסח המעודכן.
+          </p>
+
+        </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <p class="footer-brand">וולטרום</p>
-          <p>אוטומציות AI מעשיות לעסקים קטנים ובינוניים בישראל: סוכני WhatsApp, מנועי הצעות מחיר וכלים פנימיים מותאמים.</p>
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand-row">
+          <img src="assets/logo.svg" alt="Veltrum" class="logo">
+          <span class="footer-brand-name">Veltrum / וולטרום</span>
         </div>
-        <div class="footer-col">
-          <h2 class="footer-title">יצירת קשר</h2>
-          <ul class="footer-list">
-            <li>טלפון: <a class="ltr" href="tel:+972524608284">052&#8209;460&#8209;8284</a></li>
-            <li>וואטסאפ: <a href="https://wa.me/972524608284">שליחת הודעה בוואטסאפ</a></li>
-            <li>אימייל: <a class="ltr" href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h2 class="footer-title">מידע</h2>
-          <ul class="footer-list">
-            <li><a href="privacy.html">מדיניות פרטיות</a></li>
-            <li><a href="terms.html">תנאי שימוש</a></li>
-          </ul>
-        </div>
+        <p class="footer-tagline">
+          אוטומציות AI מעשיות לעסקים קטנים ובינוניים בישראל: סוכני WhatsApp,
+          מנועי הצעות מחיר וכלים פנימיים.
+        </p>
       </div>
-      <div class="footer-bottom">
-        <p>וולטרום · עוסק פטור, תיק מס' <span class="ltr">331644872</span></p>
-        <p>© 2026 וולטרום. כל הזכויות שמורות.</p>
+      <div>
+        <h2 class="footer-heading">יצירת קשר</h2>
+        <ul class="footer-list">
+          <li>טלפון: <a href="tel:052-460-8284"><span class="ltr-inline">052&#8209;460&#8209;8284</span></a></li>
+          <li>WhatsApp: <a href="https://wa.me/972524608284">שלחו לנו הודעה</a></li>
+          <li>אימייל: <a href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-heading">ניווט</h2>
+        <ul class="footer-list">
+          <li><a href="index.html">בית</a></li>
+          <li><a href="services.html">שירותים</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+          <li><a href="privacy.html">מדיניות פרטיות</a></li>
+          <li><a href="terms.html">תנאי שימוש</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Veltrum / וולטרום · עוסק פטור, תיק מס' 331644872</p>
+        <p>© 2026 Veltrum / וולטרום. כל הזכויות שמורות.</p>
       </div>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

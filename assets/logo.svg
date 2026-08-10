@@ -1,8 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Veltrum">
-  <rect width="96" height="96" rx="22" fill="#1B4332"/>
-  <path d="M22.6 38.8 A27 27 0 0 1 73.4 38.8" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M73.4 57.2 A27 27 0 0 1 22.6 57.2" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
-  <path d="M76.8 48.2 L80 36.4 L66.8 41.2 Z" fill="#FFFFFF"/>
-  <path d="M19.2 47.8 L16 59.6 L29.2 54.8 Z" fill="#FFFFFF"/>
-  <path d="M39 40 L48 57 L57 40" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Veltrum">
+  <title>Veltrum</title>
+  <!-- Rounded forest-green tile -->
+  <rect width="100" height="100" rx="22" fill="#275749"/>
+  <!-- Single automation arc, sweeping clockwise toward the top -->
+  <path d="M 78.1 36.9 A 31 31 0 1 1 50 19"
+        fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round"/>
+  <!-- Arrowhead at the top, pointing in the direction of rotation -->
+  <path d="M 48 8 L 67 19 L 48 30 Z" fill="#FFFFFF"/>
+  <!-- Solid bright center circle -->
+  <circle cx="50" cy="50" r="13.5" fill="#67D073"/>
 </svg>

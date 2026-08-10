@@ -1,129 +1,165 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>צור קשר | וולטרום</title>
-  <meta name="description" content="צרו קשר עם וולטרום בוואטסאפ, בטלפון או באימייל — נשמח לשמוע על העסק שלכם ולהציע כיוון מעשי לאוטומציה שחוסכת זמן.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>צרו קשר | Veltrum / וולטרום</title>
+  <meta name="description" content="דברו עם וולטרום ב-WhatsApp, בטלפון או באימייל — נשמח לשמוע איך העסק שלכם עובד ולהציע כיוון מעשי לאוטומציה.">
   <link rel="canonical" href="https://veltrumhq.com/contact.html">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="וולטרום">
-  <meta property="og:title" content="צור קשר | וולטרום">
-  <meta property="og:description" content="צרו קשר עם וולטרום בוואטסאפ, בטלפון או באימייל — נשמח לשמוע על העסק שלכם ולהציע כיוון מעשי לאוטומציה שחוסכת זמן.">
-  <meta property="og:url" content="https://veltrumhq.com/contact.html">
+  <meta property="og:site_name" content="Veltrum">
   <meta property="og:locale" content="he_IL">
-  <meta name="theme-color" content="#1B4332">
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <meta property="og:title" content="צרו קשר | Veltrum / וולטרום">
+  <meta property="og:description" content="WhatsApp, טלפון או אימייל — ספרו לנו על העסק שלכם ונחזור אליכם עם כיוון מעשי.">
+  <meta property="og:url" content="https://veltrumhq.com/contact.html">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "וולטרום",
-    "alternateName": "Veltrum",
-    "url": "https://veltrumhq.com",
-    "logo": "https://veltrumhq.com/assets/logo.svg",
+    "name": "Veltrum",
+    "alternateName": "וולטרום",
+    "url": "https://veltrumhq.com/",
     "telephone": "+972-52-460-8284",
     "email": "veltrum.official@gmail.com",
-    "description": "אוטומציות AI לעסקים קטנים ובינוניים בישראל",
-    "areaServed": {
-      "@type": "Country",
-      "name": "IL"
-    },
-    "sameAs": ["https://wa.me/972524608284"],
-    "priceRange": "₪₪"
+    "address": { "@type": "PostalAddress", "addressCountry": "IL" },
+    "areaServed": "IL",
+    "sameAs": ["https://wa.me/972524608284"]
   }
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
 
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">
-        <img src="assets/logo.svg" alt="Veltrum" class="logo" width="44" height="44">
+        <img src="assets/logo.svg" alt="Veltrum" class="logo">
         <span class="brand-name">וולטרום</span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="תפריט ניווט">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="ניווט ראשי">
-        <ul>
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">פתיחת תפריט</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
           <li><a href="index.html">בית</a></li>
           <li><a href="services.html">שירותים</a></li>
           <li><a href="about.html">אודות</a></li>
-          <li><a href="contact.html" aria-current="page">צור קשר</a></li>
+          <li><a href="contact.html" class="nav-cta" aria-current="page">צור קשר</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main id="main">
-    <section class="page-header">
+  <main>
+
+    <section class="page-hero">
       <div class="container">
         <h1>צרו קשר</h1>
-        <p class="page-lead">ספרו לנו על העסק ועל מה שגוזל לכם הכי הרבה זמן — נשמח להציע כיוון מעשי. הדרך הכי מהירה אלינו: וואטסאפ.</p>
+        <p>
+          הדרך הכי מהירה להתחיל היא הודעת WhatsApp: ספרו לנו מה העסק שלכם
+          ומה גוזל לכם הכי הרבה זמן — ונחזור אליכם עם כיוון מעשי.
+        </p>
       </div>
     </section>
 
-    <section class="section contact-section">
+    <section class="section">
       <div class="container">
-        <div class="contact-cards">
-          <a class="contact-card contact-card-whatsapp" href="https://wa.me/972524608284">
-            <span class="contact-card-label">וואטסאפ</span>
-            <span class="contact-card-value ltr">052&#8209;460&#8209;8284</span>
-            <span class="contact-card-action">שלחו לנו הודעה</span>
-          </a>
-          <a class="contact-card" href="tel:+972524608284">
-            <span class="contact-card-label">טלפון</span>
-            <span class="contact-card-value ltr">052&#8209;460&#8209;8284</span>
-            <span class="contact-card-action">התקשרו&nbsp;אלינו</span>
-          </a>
-          <a class="contact-card" href="mailto:veltrum.official@gmail.com">
-            <span class="contact-card-label">אימייל</span>
-            <span class="contact-card-value ltr">veltrum.official@gmail.com</span>
-            <span class="contact-card-action">כתבו לנו</span>
-          </a>
+        <div class="contact-channels">
+
+          <div class="channel channel-primary">
+            <span class="channel-badge">הדרך המהירה</span>
+            <span class="channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 8.5-8.5 8.38 8.38 0 0 1 8.5 8.5z"/>
+                <path d="M8.7 9.2c.4 1.6 1.9 3.1 3.5 3.5l1-1c.2-.2.5-.2.7-.1l1.6.8c.3.1.4.5.3.8-.4.8-1.3 1.3-2.2 1.1-2.7-.5-4.9-2.7-5.4-5.4-.2-.9.3-1.8 1.1-2.2.3-.1.7 0 .8.3l.8 1.6c.1.2.1.5-.1.7z"/>
+              </svg>
+            </span>
+            <h2>WhatsApp</h2>
+            <a class="channel-value" href="https://wa.me/972524608284" aria-label="שליחת הודעת WhatsApp למספר 052-460-8284"><span class="ltr-inline">052&#8209;460&#8209;8284</span></a>
+            <span class="channel-note">שלחו הודעה עכשיו — עונים גם מחוץ לשעות המשרד</span>
+          </div>
+
+          <div class="channel">
+            <span class="channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </span>
+            <h2>טלפון</h2>
+            <a class="channel-value" href="tel:052-460-8284" aria-label="חיוג למספר 052-460-8284"><span class="ltr-inline">052&#8209;460&#8209;8284</span></a>
+            <span class="channel-note">התקשרו ונדבר — ואם אנחנו עם לקוח, נחזור אליכם</span>
+          </div>
+
+          <div class="channel">
+            <span class="channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 7-10 6L2 7"/>
+              </svg>
+            </span>
+            <h2>אימייל</h2>
+            <a class="channel-value" href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a>
+            <span class="channel-note">מתאים לפניות מפורטות — צרפו כל מה שנראה לכם רלוונטי</span>
+          </div>
+
         </div>
-        <p class="contact-note">אנחנו משתדלים לחזור לכל פנייה במהירות.</p>
+
+        <p class="contact-note">
+          אנחנו משתדלים לחזור לכל פנייה בהקדם, בימי עבודה. כדי שנוכל לעזור מהר,
+          כתבו בהודעה מה סוג העסק ומה הייתם רוצים שיעבוד לבד.
+        </p>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <p class="footer-brand">וולטרום</p>
-          <p>אוטומציות AI מעשיות לעסקים קטנים ובינוניים בישראל: סוכני WhatsApp, מנועי הצעות מחיר וכלים פנימיים מותאמים.</p>
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand-row">
+          <img src="assets/logo.svg" alt="Veltrum" class="logo">
+          <span class="footer-brand-name">Veltrum / וולטרום</span>
         </div>
-        <div class="footer-col">
-          <h2 class="footer-title">יצירת קשר</h2>
-          <ul class="footer-list">
-            <li>טלפון: <a class="ltr" href="tel:+972524608284">052&#8209;460&#8209;8284</a></li>
-            <li>וואטסאפ: <a href="https://wa.me/972524608284">שליחת הודעה בוואטסאפ</a></li>
-            <li>אימייל: <a class="ltr" href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h2 class="footer-title">מידע</h2>
-          <ul class="footer-list">
-            <li><a href="privacy.html">מדיניות פרטיות</a></li>
-            <li><a href="terms.html">תנאי שימוש</a></li>
-          </ul>
-        </div>
+        <p class="footer-tagline">
+          אוטומציות AI מעשיות לעסקים קטנים ובינוניים בישראל: סוכני WhatsApp,
+          מנועי הצעות מחיר וכלים פנימיים.
+        </p>
       </div>
-      <div class="footer-bottom">
-        <p>וולטרום · עוסק פטור, תיק מס' <span class="ltr">331644872</span></p>
-        <p>© 2026 וולטרום. כל הזכויות שמורות.</p>
+      <div>
+        <h2 class="footer-heading">יצירת קשר</h2>
+        <ul class="footer-list">
+          <li>טלפון: <a href="tel:052-460-8284"><span class="ltr-inline">052&#8209;460&#8209;8284</span></a></li>
+          <li>WhatsApp: <a href="https://wa.me/972524608284">שלחו לנו הודעה</a></li>
+          <li>אימייל: <a href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-heading">ניווט</h2>
+        <ul class="footer-list">
+          <li><a href="index.html">בית</a></li>
+          <li><a href="services.html">שירותים</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+          <li><a href="privacy.html">מדיניות פרטיות</a></li>
+          <li><a href="terms.html">תנאי שימוש</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Veltrum / וולטרום · עוסק פטור, תיק מס' 331644872</p>
+        <p>© 2026 Veltrum / וולטרום. כל הזכויות שמורות.</p>
       </div>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

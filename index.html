@@ -1,144 +1,207 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>וולטרום – אוטומציות AI לעסקים</title>
-  <meta name="description" content="וולטרום בונה אוטומציות AI לעסקים בישראל: סוכני WhatsApp שקובעים תורים, מנועי הצעות מחיר וכלים פנימיים מותאמים. פחות עבודה ידנית, יותר זמן ללקוחות.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veltrum / וולטרום — אוטומציות AI לעסקים בישראל</title>
+  <meta name="description" content="וולטרום בונה סוכני WhatsApp לתיאום תורים ושירות לקוחות, מנועי הצעות מחיר אוטומטיים וכלים פנימיים לעסקים קטנים ובינוניים בישראל.">
   <link rel="canonical" href="https://veltrumhq.com/">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="וולטרום">
-  <meta property="og:title" content="וולטרום – אוטומציות AI לעסקים">
-  <meta property="og:description" content="וולטרום בונה אוטומציות AI לעסקים בישראל: סוכני WhatsApp שקובעים תורים, מנועי הצעות מחיר וכלים פנימיים מותאמים. פחות עבודה ידנית, יותר זמן ללקוחות.">
-  <meta property="og:url" content="https://veltrumhq.com/">
+  <meta property="og:site_name" content="Veltrum">
   <meta property="og:locale" content="he_IL">
-  <meta name="theme-color" content="#1B4332">
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <meta property="og:title" content="Veltrum / וולטרום — אוטומציות AI לעסקים בישראל">
+  <meta property="og:description" content="סוכני WhatsApp, מנועי הצעות מחיר וכלים פנימיים — אוטומציה מעשית עם תוצאות מדידות.">
+  <meta property="og:url" content="https://veltrumhq.com/">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&amp;display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js" defer></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "name": "וולטרום",
-    "alternateName": "Veltrum",
-    "url": "https://veltrumhq.com",
+    "name": "Veltrum",
+    "alternateName": "וולטרום",
+    "url": "https://veltrumhq.com/",
     "logo": "https://veltrumhq.com/assets/logo.svg",
     "telephone": "+972-52-460-8284",
     "email": "veltrum.official@gmail.com",
-    "description": "אוטומציות AI לעסקים קטנים ובינוניים בישראל",
-    "areaServed": {
-      "@type": "Country",
-      "name": "IL"
-    },
-    "sameAs": ["https://wa.me/972524608284"],
-    "priceRange": "₪₪"
+    "description": "אוטומציות AI לעסקים קטנים ובינוניים בישראל: סוכני WhatsApp, מנועי הצעות מחיר וכלים פנימיים.",
+    "address": { "@type": "PostalAddress", "addressCountry": "IL" },
+    "areaServed": "IL",
+    "sameAs": ["https://wa.me/972524608284"]
   }
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
 
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">
-        <img src="assets/logo.svg" alt="Veltrum" class="logo" width="44" height="44">
+        <img src="assets/logo.svg" alt="Veltrum" class="logo">
         <span class="brand-name">וולטרום</span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="תפריט ניווט">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="ניווט ראשי">
-        <ul>
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">פתיחת תפריט</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
           <li><a href="index.html" aria-current="page">בית</a></li>
           <li><a href="services.html">שירותים</a></li>
           <li><a href="about.html">אודות</a></li>
-          <li><a href="contact.html">צור קשר</a></li>
+          <li><a href="contact.html" class="nav-cta">צור קשר</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main id="main">
+  <main>
+
     <section class="hero">
       <div class="container">
-        <h1>אוטומציות AI שמטפלות בעסק שלך — לא רק צ'אטבוטים.</h1>
-        <p class="hero-lead">וולטרום בונה סוכני AI שמחוברים ליומן, ל-CRM ולוואטסאפ העסקי שלכם: הם עונים ללקוחות, קובעים תורים ומכינים הצעות מחיר — גם כשאתם באמצע עבודה. פחות שעות על ניהול שוטף, ואף ליד לא הולך לאיבוד.</p>
+        <h1>אוטומציות AI שמטפלות בעסק שלכם — לא רק צ'אטבוטים.</h1>
+        <p class="hero-sub">
+          וולטרום מקימה לעסקים קטנים ובינוניים בישראל סוכני WhatsApp שמתאמים תורים,
+          עונים ללקוחות ומחזירים הצעות מחיר — גם כשאתם באמצע העבודה.
+          פחות שעות על ניהול שוטף, פחות לידים שנעלמים, יותר עסקאות שנסגרות.
+        </p>
         <div class="hero-actions">
-          <a class="btn btn-light" href="contact.html">צרו קשר</a>
-          <a class="btn btn-outline-light" href="services.html">מה אנחנו עושים</a>
+          <a class="btn" href="https://wa.me/972524608284">דברו איתנו ב-WhatsApp</a>
+          <a class="btn btn-outline" href="services.html">מה אנחנו עושים</a>
         </div>
       </div>
     </section>
 
     <section class="services-preview section">
       <div class="container">
-        <h2>מה וולטרום עושה עבור העסק שלכם</h2>
-        <p class="section-lead">שלושה פתרונות שנבנים סביב תהליכי העבודה הקיימים שלכם — בלי לשנות את הדרך שבה אתם עובדים.</p>
+        <h2 class="section-title">מה וולטרום עושה בפועל</h2>
+        <p class="section-intro">
+          שלושה פתרונות שנבנים סביב העסק שלכם ומתחברים למערכות שכבר יש לכם —
+          היומן, ה-CRM והמסמכים.
+        </p>
         <div class="card-grid">
           <article class="card">
-            <h3>סוכני WhatsApp חכמים</h3>
-            <p>סוכן שעונה ללקוחות בוואטסאפ, קובע תורים ישירות ביומן ומסנן לידים — 24/7, גם מחוץ לשעות הפעילות.</p>
-            <a class="card-link" href="services.html#whatsapp-agents">עוד על סוכני WhatsApp</a>
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 8.5-8.5 8.38 8.38 0 0 1 8.5 8.5z"/>
+              </svg>
+            </div>
+            <h3>סוכני WhatsApp לעסק</h3>
+            <p>
+              סוכן חכם שעונה ללקוחות ב-WhatsApp, קובע תורים ישירות ביומן, מסנן לידים
+              ומעדכן את ה-CRM — מסביב לשעון, בעברית טבעית.
+            </p>
+            <a class="card-link" href="services.html#whatsapp-agents">לפרטים המלאים ←</a>
           </article>
           <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+            </div>
             <h3>מנוע הצעות מחיר אוטומטי</h3>
-            <p>הלקוח שולח דרישות בוואטסאפ ומקבל הצעת מחיר מסודרת בעברית תוך דקות, לפי המחירון שלכם.</p>
-            <a class="card-link" href="services.html#quote-engine">עוד על הצעות מחיר</a>
+            <p>
+              הלקוח שולח תמונות ופרטים ב-WhatsApp, והמערכת מחזירה הצעת מחיר מסודרת
+              תוך דקות. מתאים לקבלנים, מטבחים, אלומיניום, מיזוג אוויר ושיפוצים.
+            </p>
+            <a class="card-link" href="services.html#quote-engine">לפרטים המלאים ←</a>
           </article>
           <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="6" y1="20" x2="6" y2="14"/>
+                <line x1="12" y1="20" x2="12" y2="8"/>
+                <line x1="18" y1="20" x2="18" y2="4"/>
+              </svg>
+            </div>
             <h3>כלים פנימיים ודשבורדים</h3>
-            <p>דוחות, מסמכים ותהליכי עבודה שנוצרים אוטומטית — פחות הקלדות כפולות ופחות זמן על ניהול.</p>
-            <a class="card-link" href="services.html#internal-tools">עוד על כלים פנימיים</a>
+            <p>
+              דוחות שנוצרים לבד, דשבורדים שמראים בדיוק את מה שחשוב, ואוטומציה של
+              מסמכים — פחות אקסל ידני, יותר שליטה.
+            </p>
+            <a class="card-link" href="services.html#internal-tools">לפרטים המלאים ←</a>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="cta section">
+    <section class="how-we-work section">
       <div class="container">
-        <div class="cta-band">
-          <h2>רוצים לראות מה אפשר להפוך לאוטומטי בעסק שלכם?</h2>
-          <p>שיחת היכרות קצרה, בלי התחייבות — נבין יחד איפה הולך לכם הכי הרבה זמן, ונציע פתרון מדויק.</p>
-          <a class="btn btn-primary" href="contact.html">צרו קשר</a>
-        </div>
+        <h2 class="section-title">איך מתחילים</h2>
+        <ol class="steps">
+          <li>
+            <h3>שיחת היכרות קצרה</h3>
+            <p>מספרים לנו איך העסק עובד היום ומה גוזל הכי הרבה זמן.</p>
+          </li>
+          <li>
+            <h3>אפיון ממוקד</h3>
+            <p>אנחנו ממפים את התהליך ומציעים פתרון מדויק — עם מחיר ולוח זמנים ברורים.</p>
+          </li>
+          <li>
+            <h3>הקמה וליווי</h3>
+            <p>בונים, מחברים ליומן ול-CRM, ומלווים אתכם עד שהכול רץ חלק.</p>
+          </li>
+        </ol>
       </div>
     </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>מוכנים להפסיק לאבד זמן ולידים?</h2>
+        <p>ספרו לנו על העסק שלכם ונחזור אליכם עם כיוון מעשי — בלי התחייבות.</p>
+        <a class="btn btn-on-dark" href="contact.html">צור קשר</a>
+      </div>
+    </section>
+
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <p class="footer-brand">וולטרום</p>
-          <p>אוטומציות AI מעשיות לעסקים קטנים ובינוניים בישראל: סוכני WhatsApp, מנועי הצעות מחיר וכלים פנימיים מותאמים.</p>
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand-row">
+          <img src="assets/logo.svg" alt="Veltrum" class="logo">
+          <span class="footer-brand-name">Veltrum / וולטרום</span>
         </div>
-        <div class="footer-col">
-          <h2 class="footer-title">יצירת קשר</h2>
-          <ul class="footer-list">
-            <li>טלפון: <a class="ltr" href="tel:+972524608284">052&#8209;460&#8209;8284</a></li>
-            <li>וואטסאפ: <a href="https://wa.me/972524608284">שליחת הודעה בוואטסאפ</a></li>
-            <li>אימייל: <a class="ltr" href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h2 class="footer-title">מידע</h2>
-          <ul class="footer-list">
-            <li><a href="privacy.html">מדיניות פרטיות</a></li>
-            <li><a href="terms.html">תנאי שימוש</a></li>
-          </ul>
-        </div>
+        <p class="footer-tagline">
+          אוטומציות AI מעשיות לעסקים קטנים ובינוניים בישראל: סוכני WhatsApp,
+          מנועי הצעות מחיר וכלים פנימיים.
+        </p>
       </div>
-      <div class="footer-bottom">
-        <p>וולטרום · עוסק פטור, תיק מס' <span class="ltr">331644872</span></p>
-        <p>© 2026 וולטרום. כל הזכויות שמורות.</p>
+      <div>
+        <h2 class="footer-heading">יצירת קשר</h2>
+        <ul class="footer-list">
+          <li>טלפון: <a href="tel:052-460-8284"><span class="ltr-inline">052&#8209;460&#8209;8284</span></a></li>
+          <li>WhatsApp: <a href="https://wa.me/972524608284">שלחו לנו הודעה</a></li>
+          <li>אימייל: <a href="mailto:veltrum.official@gmail.com">veltrum.official@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-heading">ניווט</h2>
+        <ul class="footer-list">
+          <li><a href="index.html">בית</a></li>
+          <li><a href="services.html">שירותים</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+          <li><a href="privacy.html">מדיניות פרטיות</a></li>
+          <li><a href="terms.html">תנאי שימוש</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Veltrum / וולטרום · עוסק פטור, תיק מס' 331644872</p>
+        <p>© 2026 Veltrum / וולטרום. כל הזכויות שמורות.</p>
       </div>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
