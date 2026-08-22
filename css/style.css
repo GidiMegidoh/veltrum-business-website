@@ -800,6 +800,19 @@ h3 {
   font-size: 0.9rem;
 }
 
+/* Bilingual legal identity lines in the footer */
+.legal-line,
+.legal-line-en {
+  color: var(--footer-link);
+  font-size: 0.9rem;
+}
+
+/* Static (non-link) address value on the contact page */
+.channel-address {
+  font-weight: 600;
+  color: var(--green-800);
+}
+
 /* --- Desktop ------------------------------------------------------------ */
 
 @media (min-width: 820px) {
