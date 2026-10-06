@@ -1,4 +1,4 @@
-# Deploying the Veltrum Website
+# Deploying the גידי פתרונות דיגיטליים website
 
 The site is fully static (HTML + CSS + vanilla JS, no build step). Deploy the
 contents of this `veltrum-site/` directory as-is to any static host.
