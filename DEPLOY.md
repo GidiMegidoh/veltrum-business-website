@@ -7,7 +7,7 @@ contents of this `veltrum-site/` directory as-is to any static host.
 > (and the URLs in `sitemap.xml`) once the domain is live, if it differs from
 > `https://veltrumhq.com`.
 
-## Option 1 — GitHub Pages
+## Option 1 - GitHub Pages
 
 1. Push this directory to a GitHub repository (either as the repo root, or
    enable Pages with this folder as the publish source).
@@ -21,7 +21,7 @@ contents of this `veltrum-site/` directory as-is to any static host.
    - `CNAME` record for `www` → `<your-github-username>.github.io`
 5. Wait for DNS propagation, then enable **Enforce HTTPS**.
 
-## Option 2 — Netlify
+## Option 2 - Netlify
 
 **Drag & drop:** open [app.netlify.com](https://app.netlify.com), choose
 "Deploy manually", and drop the `veltrum-site/` folder. Done.
@@ -32,7 +32,7 @@ empty, and set **Publish directory** to `veltrum-site`. Then add the custom
 domain `veltrumhq.com` under **Domain management** and follow Netlify's DNS
 instructions (either Netlify DNS nameservers or a CNAME/ALIAS record).
 
-## Option 3 — Vercel
+## Option 3 - Vercel
 
 1. "Add New → Project" and import the repository.
 2. Framework preset: **Other**. Root directory: `veltrum-site`. No build
