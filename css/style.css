@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Veltrum — shared stylesheet (all pages)
+   גידי פתרונות דיגיטליים - shared stylesheet (all pages)
    Mobile-first, RTL (html[dir="rtl"]). Palette extracted from the brand logo.
    ========================================================================== */
 
@@ -7,7 +7,7 @@
   --green-900: #1E4438; /* footer / deep surfaces */
   --green-800: #275749; /* primary brand green (logo tile) */
   --green-700: #33705E; /* hover shade */
-  --accent: #67D073;    /* bright logo green — decorative only (fails AA on light bg) */
+  --accent: #67D073;    /* bright logo green - decorative only (fails AA on light bg) */
   --accent-soft: #E4F5E7;
   --bg: #F8F9F8;
   --surface: #FFFFFF;
@@ -867,4 +867,11 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+/* Longer brand name: keep the header on one line on narrow phones */
+.brand-name { white-space: nowrap; }
+@media (max-width: 480px) {
+  .brand-name { font-size: 1.02rem; }
+  .site-header .logo { height: 38px; width: 38px; }
 }

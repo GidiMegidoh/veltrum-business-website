@@ -1,4 +1,4 @@
-/* Veltrum — minimal site behavior: mobile navigation toggle only. */
+/* גידי פתרונות דיגיטליים - minimal site behavior: mobile navigation toggle only. */
 (function () {
   'use strict';
 
